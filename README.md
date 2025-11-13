@@ -47,3 +47,7 @@ Build:
 gleam build
 bun make
 ```
+
+## 🧪 Demo
+
+- [vite-plugin-gleam-demo](https://github.com/gleam-br/vite-plugin-gleam-demo)
