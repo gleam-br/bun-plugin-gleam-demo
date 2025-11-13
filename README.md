@@ -7,11 +7,16 @@ gleam clean
 gleam build
 ```
 
-Bun make and test:
+Bun make:
 
 ```sh
-bun make.js
-bun dist/index.js
+bun make # or bun ./make.js
+```
+
+Bun test:
+
+```sh
+bun ./dist/index.js
 ```
 
 ## How this project was created
@@ -26,7 +31,7 @@ Bun init:
 
 ```sh
 bun init -y
-bun add bun-plugin-gleam
+bun add --dev bun-plugin-gleam
 ```
 
 Bun script `make.js`:
@@ -47,6 +52,11 @@ Build:
 gleam build
 bun make
 ```
+
+## ✅ Plugins
+
+- [bun-plugin-gleam](https://github.com/gleam-br/bun-plugin-gleam)
+- [vite-plugin-gleam](https://github.com/gleam-br/vite-plugin-gleam)
 
 ## 🧪 Demo
 
