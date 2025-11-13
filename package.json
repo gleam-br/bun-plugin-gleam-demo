@@ -1,0 +1,14 @@
+{
+  "name": "bun-plugin-gleam-demo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-plugin-gleam": "^0.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
