@@ -17,6 +17,7 @@ Bun test:
 
 ```sh
 bun ./dist/index.js
+# Hello from bun_plugin_gleam_demo!
 ```
 
 ## How this project was created
@@ -61,3 +62,4 @@ bun make
 ## 🧪 Demo
 
 - [vite-plugin-gleam-demo](https://github.com/gleam-br/vite-plugin-gleam-demo)
+- [vite-ts-plugin-gleam-demo](https://github.com/gleam-br/vite-ts-plugin-gleam-demo)
