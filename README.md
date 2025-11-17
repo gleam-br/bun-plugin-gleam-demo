@@ -63,3 +63,22 @@ bun make
 
 - [vite-plugin-gleam-demo](https://github.com/gleam-br/vite-plugin-gleam-demo)
 - [vite-ts-plugin-gleam-demo](https://github.com/gleam-br/vite-ts-plugin-gleam-demo)
+
+## Roadmap
+
+- [ ] Demo: bun serve index.html using gleam lustre pkg.
+
+```js
+import gleam from "bun-plugin-gleam";
+
+Bun.serve({
+  port: 3000,
+  plugins: [gleam({ log: "debug", force: true })],
+  routes: {
+    "/": function() {
+      // TODO: How put lustre elements here?
+      return new Response('Bun plugin gleam!');
+    },
+  }
+});
+```

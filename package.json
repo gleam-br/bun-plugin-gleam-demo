@@ -4,9 +4,13 @@
   "type": "module",
   "private": true,
   "license": "Apache-2.0",
+  "scripts": {
+    "build": "bun run bin/make",
+    "exec": "bun ./dist/index.js"
+  },
   "devDependencies": {
     "@types/bun": "latest",
-    "bun-plugin-gleam": "^0.1.1"
+    "bun-plugin-gleam": "^0.1.3"
   },
   "peerDependencies": {
     "typescript": "^5"
